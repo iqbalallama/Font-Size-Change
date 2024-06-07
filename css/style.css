@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.header{
+    width: 80%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:12px;
+    box-shadow: 2px -2px 5px gray;
+    margin: 0 auto;
+    color:white;
+}
+.change{
+    width: 32%;
+    text-align: center;
+    font-size: 28px;
+}
+.reset {
+    padding: 10px 20px;
+    font-size: 28px;
+}
+.selects{
+    font-size: 28px;
+    padding: 0px 15px;
+}
+.main {
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px gray;
+    color: white;
+    padding: 15px 20px;
+}
+
+@media screen and (max-width:700px) {
+    .main,.header{
+        width: 95%;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .change {
+        width: 90%;
+        text-align: center;
+        font-size: 24px;
+    }
+    .selects{
+        font-size: 24px;
+        padding: 0px 15px;
+    }
+    .reset {
+        padding: 10px 20px;
+        font-size: 24px;
+    }
+}
