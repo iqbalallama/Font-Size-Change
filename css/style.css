@@ -13,13 +13,20 @@ body{
     color:white;
 }
 .change{
-    width: 32%;
+    width: 40%;
     text-align: center;
     font-size: 28px;
 }
+.btn{
+    width: 15%;
+}
 .reset {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 28px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
 }
 .selects{
     font-size: 28px;
